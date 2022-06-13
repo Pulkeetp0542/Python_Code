@@ -11,6 +11,13 @@ dict = {'First Score': [100, 90, np.nan, 95],
 # creating a dataframe from list
 df = pd.DataFrame(dict)
 
+print(df.shape)
+
+print(df.describe())
+
+print(df.info())
+
+
 # using isnull() function
 df = df.fillna(0)
 
