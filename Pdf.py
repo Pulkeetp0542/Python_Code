@@ -5,7 +5,12 @@ data = {'Name':['Jai', 'Princi', 'Gaurav', 'Anuj'],
         'Address':['Delhi', 'Kanpur', 'Allahabad', 'Kannauj'],
         'Qualification':['Msc', 'MA', 'MCA', 'Phd']}
 
+#Converting the data to DataFrme
 df = pd.DataFrame(data)
 
+#Printing the DataFrame
 print(df)
+
+#Selecting the two col
+print(df[['Name','Age']])
 
