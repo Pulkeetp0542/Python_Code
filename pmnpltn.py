@@ -22,7 +22,7 @@ print(data['price'].min())
 #Print the shape of Data
 print(data.shape)
 
-#Statistical Summary of Numerical features
+#Statistical Summary of Numerical features 
 print(data.describe())
 
 print(data.info())
